@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = f"{file_name} \n @motionpicturemedia||@Mpm_Linkz",
+                caption = f"{file_name} \n |@Mpm_Linkz| |@motionpicturemedia|",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '♻️JOIN OUR MAIN CHANNEL♻️', url="https://t.me/joinchat/lr71lRGXjxZmNmU5"
+                                    '⚠JOIN OUR MAIN CHANNEL⚠', url="https://t.me/joinchat/lr71lRGXjxZmNmU5"
                                 )
                         ]
                     ]
