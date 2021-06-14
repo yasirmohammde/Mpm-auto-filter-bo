@@ -12,8 +12,7 @@ For More Details Click Help Button Below..
 JOIN 👉 @motionpicturemedia
 FOR MOVIES
 
-For More Details Click Help Button Below..
-@motionpicturemedia
+
 </i>"""    
     
     HELP_TEXT = """
